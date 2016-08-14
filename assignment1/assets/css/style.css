@@ -65,7 +65,7 @@ h3 {
 	line-height: 90px;
 	color: #fff;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 20px;
 	text-decoration: none;
 }
 nav {
@@ -216,20 +216,21 @@ input[type=submit] {
 
 
 @media only screen and (max-width:980px){
+	#mast-container{
+		width:90%;
+	}
+
 	#logo{
 		width: 250px;
 		height: 90px;
 		font-size: 20px;
 
 	}
-
-
-	.container{
-		width: 80%;
+	#main-container{
+		width:90%;
 	}
 	.main-section{
 		width:55%;
-		background-color:blue;
 	}
 
 	.sidebar{
@@ -258,7 +259,6 @@ input[type=submit] {
 	}
 
 	.main-section{
-		background-color:red;
 		width:100%;
 		float: left;
 	}
@@ -290,24 +290,27 @@ input[type=submit] {
 		position: static;
 		width:100%;
 		padding:0;
-		margin:0;
+		margin-bottom:0;
+	}
+	#mast-container{
+		width:100%;
 	}
 
 	#logo{
 		width:100%;
 		margin:0;
-		clear:both;
 	}
 
 	nav {
 		width: 100%;
-		clear:both;
+		font-size:20px;
+		/*clear:both;*/
 		text-align:center;
 	}
 
 	.main-section{
-		background-color:yellow;
 		width:100%;
+		margin-top:-80px;
 	}
 
 	.sidebar{
