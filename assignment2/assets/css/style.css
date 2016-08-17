@@ -108,6 +108,9 @@ footer {
 	float: right;
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
+	position: relative;
+	animation-duration: 2s;
+  	animation-name: bounceIn;
 }
 h3,
 .sidebar h2 {
@@ -139,6 +142,9 @@ h3,
 	max-width: 650px;
 	float: left;
 	border: 1px solid #ddd;
+	position: relative;
+	animation-duration: 2s;
+  	animation-name: bounceIn;
 }
 
 /*portfolio page*/
@@ -212,4 +218,22 @@ input[type=submit] {
 	font-size: 18px;
 	padding: 10px 30px;
 	cursor: pointer;
+}
+
+
+/*Bootstrap classes*/
+
+/*animations*/
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
 }
